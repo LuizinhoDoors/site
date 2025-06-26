@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia Renovável</title>
+    <style>
+        /* Resetando margens e preenchimento padrão */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 2rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Energia Renovável</h1>
+        <p>Fontes sustentáveis para um futuro mais verde</p>
+    </header>
+
+    <nav>
+        <a href="#solar">Energia Solar</a>
+        <a href="#eolica">Energia Eólica</a>
+        <a href="#hidreletrica">Energia Hidrelétrica</a>
+    </nav>
+
+    <div class="container">
+        <section id="solar">
+            <h2>Energia Solar</h2>
+            <div class="card">
+                <img src="https://via.placeholder.com/400x250?text=Energia+Solar" alt="Painéis solares">
+                <p>A energia solar é gerada através de células fotovoltaicas que convertem a luz do sol em eletricidade. É uma das fontes de energia mais promissoras para o futuro.</p>
+            </div>
+        </section>
+
+        <section id="eolica">
+            <h2>Energia Eólica</h2>
+            <div class="card">
+                <img src="https://via.placeholder.com/400x250?text=Energia+Eólica" alt="Turbinas eólicas">
+                <p>A energia eólica é gerada a partir do vento, sendo uma fonte limpa e renovável. As turbinas eólicas convertem a energia do vento em eletricidade.</p>
+            </div>
+        </section>
+
+        <section id="hidreletrica">
+            <h2>Energia Hidrelétrica</h2>
+            <div class="card">
+                <img src="https://via.placeholder.com/400x250?text=Energia+Hidrelétrica" alt="Usina Hidrelétrica">
+                <p>A energia hidrelétrica é gerada a partir do movimento da água, geralmente em grandes barragens. É uma das fontes de energia mais utilizadas no mundo.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Energia Renovável. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
